@@ -84,7 +84,7 @@ for i in range(-10, 0, 1):
 #print('\n |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||', '\n \n')
 #print('O Produto mais barato é: ', menor, '\n')
 print('TOP - 10 \n ')
-print(' -',  lambda lista2: {lista2[-1]} if lista2[-1] <= 600 and lista2[-1] >= 300 else None, lista[-1], '\n') # VALOR ESTIPULADO
+print(' -',   lista2[-2], '\n') #lambda lista2: {lista2[-1]} if lista2[-1] <= 600 and lista2[-1] >= 300 else None, lista[-1], '\n') # VALOR ESTIPULADO
 print(' -', lista2[-2], '\n')
 print(' -', lista2[-3], '\n')
 print(' -', lista2[-4], '\n')
